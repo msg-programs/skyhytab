@@ -9,11 +9,11 @@
     "msg-programs"
   ],
   "contact": {
-    "homepage": "TODO",
-    "sources": "TODO"
+    "homepage": "https://github.com/msg-programs/skyhytab",
+    "sources": "https://github.com/msg-programs/skyhytab"
   },
 
-  "license": "TODO",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
