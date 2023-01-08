@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "msg-skyhytab",
+  "version": "${version}",
+
+  "name": "SkyHyTab",
+  "description": "A better tab screen for Hypixel Skyblock",
+  "authors": [
+    "msg-programs"
+  ],
+  "contact": {
+    "homepage": "TODO",
+    "sources": "TODO"
+  },
+
+  "license": "TODO",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.msgprograms.skyhytab.SkyHyTabMain"
+    ],
+    "modmenu": [
+        "com.msgprograms.skyhytab.ModMenuIntegr"
+    ]
+  },
+  "mixins": [
+    "skyhytab.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
